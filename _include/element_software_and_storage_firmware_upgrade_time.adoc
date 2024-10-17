@@ -1,0 +1,26 @@
+= 
+:allow-uri-read: 
+
+
+* *Tempo de processo de atualização*: Você agendou tempo suficiente para realizar a atualização. Quando você atualiza para o software Element 12,5 ou posterior, o tempo do processo de atualização varia dependendo da versão atual do software Element e das atualizações de firmware.
++
+[cols="20,20,20,20,20"]
+|===
+| Nó de storage | Versão atual do software Element | O tempo aproximado de instalação de software e firmware por nó 1 | O tempo aproximado de sincronização de dados por nó 2 | Tempo total aproximado de atualização por nó 
+
+
+| Todos os nós da série H SolidFire e NetApp com firmware atualizado | 12.x | 15 minutos | 10 a 15 minutos | 20 a 30 minutos 
+
+
+| H610S e H410S | 12.x e 11,8 | 60 minutos | 30 a 60 minutos | 90 a 120 minutos 
+
+
+| H610S | 11,7 e anteriores | 90 minutos | 40 a 70 minutos | De 130 a 160 minutos, você também precisa https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["execute um desligamento completo do nó e desconexão de energia"^] para cada nó H610S. 
+|===
++
+1 para obter uma matriz completa de firmware e firmware de driver para o seu hardware, link:firmware_driver_versions.html["Versões de firmware e driver ESXi compatíveis para versões de NetApp HCI e firmware para nós de storage NetApp HCI"]consulte .
+
++
+2 se você combinar um cluster com uma carga de IOPS de gravação pesada com um tempo de atualização de firmware mais longo, o tempo de sincronização de dados aumentará.
+
+

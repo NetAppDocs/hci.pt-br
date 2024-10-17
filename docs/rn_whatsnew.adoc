@@ -1,0 +1,135 @@
+---
+sidebar: sidebar 
+permalink: docs/rn_whatsnew.html 
+summary: Saiba o que há de novo nesta versão do NetApp HCI. 
+keywords: netapp, hci, element, new, whatsnew 
+---
+= O que há de novo no NetApp HCI
+:hardbreaks:
+:allow-uri-read: 
+:url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O NetApp atualiza periodicamente o NetApp HCI para trazer novos recursos, aprimoramentos e correções de bugs. O NetApp HCI 1,10 inclui o software Element 12,5 para clusters de storage.
+
+
+NOTE: O software Element 12,7 é a versão mais recente e inclui atualizações de segurança e componentes do sistema, melhorias operacionais e problemas resolvidos. https://docs.netapp.com/us-en/element-software/concepts/concept_rn_whats_new_element.html["Saiba mais sobre o que há de novo no Element 12,7"^].
+
+* A <<NetApp HCI 1,10>> seção descreve novos recursos e atualizações no NetApp HCI versão 1,10.
+* A <<Software Element 12,5>> seção descreve novos recursos e atualizações no elemento 12,5.
+
+
+
+
+== NetApp HCI 1,10
+
+O NetApp HCI 1,10 inclui melhorias de segurança e estabilidade e aumenta a flexibilidade de dimensionamento pós-implantação.
+
+
+
+=== Flexibilidade de dimensionamento pós-implantação
+
+O NetApp HCI 1,10 aumenta sua flexibilidade para expandir os recursos de computação do NetApp HCI, removendo o requisito de atender às configurações padrão do vmk e do vmnic de implantação nos nós de computação. A partir do NetApp HCI 1,10, o NetApp HCI espera apenas configurações gerais de vmk nos nós de computação quando você expande os recursos de computação. link:task_nde_supported_net_changes.html["Saiba mais"].
+
+
+
+=== Atualizações de firmware do nó de storage
+
+O NetApp HCI 1,10 inclui atualizações de firmware para nós de storage. link:rn_relatedrn.html#storage-firmware["Saiba mais"].
+
+
+
+=== Atualizações de firmware do nó de computação
+
+O NetApp HCI 1,10 inclui atualizações de firmware para nós de computação. link:rn_relatedrn.html#compute-firmware["Saiba mais"].
+
+
+
+=== Plug-in do NetApp Element para disponibilidade do vCenter Server 4,9
+
+O plug-in do NetApp Element para vCenter Server 4,9 está disponível fora das versões do nó de gerenciamento 12,5 e do NetApp HCI 1,10. Para atualizar o plug-in, siga as instruções na link:concept_hci_upgrade_overview.html["Atualizações do NetApp HCI"] documentação.
+
+
+
+=== Versões suportadas das atualizações do VMware vSphere
+
+Com o NetApp HCI 1,10, o VMware vSphere 7,0 é compatível com implantação e expansão.
+
+
+
+=== Melhorias no controle de nuvem híbrida da NetApp
+
+O controle de nuvem híbrida da NetApp foi aprimorado para a versão 1,10. link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Saiba mais"^].
+
+
+
+=== Problemas resolvidos e problemas conhecidos
+
+A ferramenta NetApp Bugs Online contém problemas resolvidos e conhecidos para NetApp HCI, software Element e outros produtos. Você pode navegar por esses problemas usando palavras-chave ou versões em https://mysupport.netapp.com/site/products/all/details/netapp-hci/bugsonline-tab["NetApp Bugs Online"^].
+
+
+
+== Software Element 12,5
+
+O Element 12,5 apresenta acesso aprimorado ao nó de storage, gerenciabilidade aprimorada de domínios de proteção personalizados, eventos e falhas de cluster novos e aprimorados, funcionalidade aprimorada de IU do Cluster, segurança aprimorada e atualizações automatizadas com Ansible.
+
+
+
+=== Acesso aprimorado ao nó de storage
+
+O Element 12,5 traz acesso remoto aprimorado a nós individuais usando certificados SSH assinados. Para fornecer acesso remoto seguro aos nós de storage, uma nova conta de usuário local de privilégios limitados chamada `sfreadonly` agora é criada durante o RTFI de um nó de storage. A `sfreadonly` conta permite o acesso ao back-end do nó de storage para fins básicos de manutenção ou solução de problemas. Agora você pode configurar o `supportAdmin` tipo de acesso para um usuário administrador de cluster para permitir o acesso de suporte do NetApp ao cluster conforme necessário.
+
+
+
+=== Gerenciamento de domínios de proteção personalizados aprimorados
+
+O Element 12,5 possui uma nova interface de usuário que permite visualizar rapidamente e facilmente domínios de proteção personalizados existentes e configurar novos domínios de proteção personalizados.
+
+
+
+=== Falhas, eventos e alertas do cluster novos e aprimorados
+
+O Element 12,5 aprimora a solução de problemas do sistema com a introdução dos novos códigos de falha do cluster `BmcSelfTestFailed` e `CpuThermalEventThreshold`. O elemento 12,5 também contém melhorias de robustez para eventos e alertas de cluster existentes, como `nodeOffline`, `volumeOffline`, , `driveHealthFault` `networkEvent` e `cSumEvent`.
+
+
+
+=== Ative a criptografia de software em repouso a partir da IU criar cluster
+
+Com a adição de uma nova caixa de verificação na IU criar cluster, o Element 12,5 oferece a opção de ativar a criptografia de software em repouso para clusters de storage all-flash SolidFire durante a criação do cluster.
+
+
+
+=== Atualizações de firmware do nó de storage
+
+O Element 12,5 inclui atualizações de firmware para nós de storage. link:https://docs.netapp.com/us-en/element-software/concepts/concept_rn_relatedrn_element.html#storage-firmware["Saiba mais"^].
+
+
+
+=== Segurança melhorada
+
+O elemento 12,5 contém a mitigação que fecha a exposição do software Element à vulnerabilidade Apache Log4j. Os clusters de storage do NetApp SolidFire com o recurso volumes virtuais (vols) habilitado são expostos à vulnerabilidade do Apache Log4j. Para obter informações sobre a solução alternativa para a vulnerabilidade do Apache Log4j no software NetApp Element, consulte o
+
+Se você estiver executando o Element 11.x, 12,0 ou 12,2 ou se o cluster de storage já estiver no Element 12,3 ou 12.3.1 com o recurso Vols habilitado, você deve atualizar para o 12,5.
+
+O Element 12,5 também inclui mais de 120 correções de vulnerabilidades de segurança CVE.
+
+
+
+== Upgrades automatizados com o Ansible
+
+Com o 12,5 Ansible, você pode automatizar o fluxo de trabalho de atualização do software Element com a ajuda do Ansible para realizar uma atualização progressiva de todo o cluster de storage. Para começar, navegue até o https://github.com/NetApp-Automation["Repositório do NetApp"^] no GitHub e baixe a `nar_solidfire_sds_upgrade` função e a documentação.
+
+[discrete]
+== Encontre mais informações
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Notas de lançamento dos serviços de gerenciamento e controle de nuvem híbrida da NetApp"^]
+* https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
+* https://www.netapp.com/us/documentation/hci.aspx["Página de recursos do NetApp HCI"^]
+* https://docs.netapp.com/us-en/element-software/index.html["Documentação do software SolidFire e Element"^]
+* link:firmware_driver_versions.html["Versões de firmware e driver ESXi compatíveis para versões de NetApp HCI e firmware para nós de storage NetApp HCI"]
+

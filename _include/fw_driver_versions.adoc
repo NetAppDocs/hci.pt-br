@@ -1,0 +1,19 @@
+= 
+:allow-uri-read: 
+
+
+Versões de firmware e driver ESXi compatíveis para versões de NetApp HCI e firmware para nós de storage NetApp HCI.
+
+link:fw_storage_nodes.html["Nós de storage"]
+
+* H610S
+* H410S
+
+
+link:fw_compute_nodes.html["Nós de computação"]
+
+* H615C
+* H610C
+* H410C
+* H300E/H500E/H700E
+
