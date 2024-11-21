@@ -27,7 +27,7 @@ NOTE: Os serviços de gerenciamento 2.22.7 incluem o plug-in Element para vCente
 --
 Este procedimento de atualização abrange os seguintes cenários de atualização:
 
-* Você está atualizando para o Element Plug-in para vCenter Server 5,3, 5,2, 5,1 ou 5,0.
+* Você está atualizando para o Element Plug-in para vCenter Server 5,4, 5,3, 5,2, 5,1 ou 5,0.
 * Você está atualizando para um 8,0 ou 7,0 HTML5 vSphere Web Client.
 +
 
@@ -193,8 +193,8 @@ Você deve ver os seguintes detalhes de versão ou detalhes de uma versão mais 
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.3
-NetApp Element Plug-in Build Number: 9
+NetApp Element Plug-in Version: 5.4
+NetApp Element Plug-in Build Number: 1
 ----
 
 

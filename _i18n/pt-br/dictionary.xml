@@ -1821,7 +1821,6 @@
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">Notas de versão dos Serviços de Gestão</block>
   <block id="3b79e75f8bb7342984eec3a3fd95ccf6" category="list-text"><block ref="3b79e75f8bb7342984eec3a3fd95ccf6" category="inline-link-rx"></block></block>
   <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">Notas de versão do vCenter Plug-in 5,3</block>
-  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _NOVO_</block>
   <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">Notas de versão do vCenter Plug-in 5,2</block>
   <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
   <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">Notas de versão do vCenter Plug-in 5,1</block>
@@ -6095,7 +6094,6 @@
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">Para ambientes vSphere existentes com um plug-in NetApp Element registrado para VMware vCenter Server, você pode atualizar o Registro do plug-in depois de atualizar o pacote de serviços de gerenciamento que contém o serviço do plug-in.</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">Você pode atualizar o Registro do plug-in no vCenter Server Virtual Appliance (vCSA) ou Windows usando o utilitário de Registro. Você deve alterar seu Registro para o vCenter Plug-in em cada vCenter Server onde você precisa usar o plug-in.</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">Este procedimento de atualização abrange os seguintes cenários de atualização:</block>
-  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">Você está atualizando para o Element Plug-in para vCenter Server 5,3, 5,2, 5,1 ou 5,0.</block>
   <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">Você está atualizando para um 8,0 ou 7,0 HTML5 vSphere Web Client.</block>
   <block id="474ed7ffbbc0fc1d58ad983e7ef700f6" category="admonition">O plug-in Element para vCenter 5,0 ou posterior não é compatível com o vCenter Server 6,7 e 6,5.</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Quando você atualiza do Element Plug-in para vCenter Server 4.x para 5.x, os clusters já configurados com o plug-in são perdidos porque os dados não podem ser copiados de uma instância do vCenter para um plug-in remoto. Você deve adicionar novamente os clusters ao plug-in remoto. Essa é uma atividade única ao atualizar de um plug-in local para um plug-in remoto.</block>
@@ -6221,4 +6219,10 @@
   <block id="d3185a38b712d1d4ca3dad90064bfb57" category="sidebar">Expanda a visão geral</block>
   <block id="9a273d2d550df11ef961cf667f623547" category="sidebar">Expanda os recursos de computação e storage do NetApp</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">Mantenha o hardware da série H.</block>
+  <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.26.30 (plug-in do NetApp Element para VMware vCenter Server 5,4.1)</block>
+  <block id="a6797c051ad351f2872ce5ea539ca689" category="list-text"><block ref="a6797c051ad351f2872ce5ea539ca689" category="inline-link-macro-rx"></block></block>
+  <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">Notas de versão do vCenter Plug-in 5,4</block>
+  <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block> _NOVO_</block>
+  <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
+  <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">Você está atualizando para o Element Plug-in para vCenter Server 5,4, 5,3, 5,2, 5,1 ou 5,0.</block>
 </blocks>
