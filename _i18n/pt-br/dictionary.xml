@@ -1416,71 +1416,38 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
   <block id="5c77617ea17cd390f132822ac7f42625" category="inline-link-macro">Aviso para NetApp HCI 1,11</block>
-  <block id="20d4e2a80ba0cec87b124d5e3390c44e" category="list-text"><block ref="20d4e2a80ba0cec87b124d5e3390c44e" category="inline-link-macro-rx"></block></block>
   <block id="153627e79a0ffb6d6ade85f68b50611b" category="inline-link-macro">Aviso para o software Element 12,7</block>
-  <block id="588b7b5699cc9216567e12dd3b52d35d" category="list-text"><block ref="588b7b5699cc9216567e12dd3b52d35d" category="inline-link-macro-rx"></block></block>
   <block id="0ce0d000aa89de0d0743fc44c13f94f4" category="inline-link-macro">Aviso para o Ember os 12,7</block>
-  <block id="9d1beea064c742f4e5d435a51a3ce029" category="list-text"><block ref="9d1beea064c742f4e5d435a51a3ce029" category="inline-link-macro-rx"></block></block>
   <block id="fe083ab0d94ac0f3fab1459ec6687f07" category="inline-link-macro">Aviso para nó de gerenciamento 12,7</block>
-  <block id="551ab23fd5dd0deb11cabe8a8c2f600d" category="list-text"><block ref="551ab23fd5dd0deb11cabe8a8c2f600d" category="inline-link-macro-rx"></block></block>
   <block id="62771bd83d8aca3aeed51ebebe93c63e" category="inline-link-macro">Aviso para NetApp HCI 1,10</block>
-  <block id="729f847bf2e659800d5ab8165369d80d" category="list-text"><block ref="729f847bf2e659800d5ab8165369d80d" category="inline-link-macro-rx"></block></block>
   <block id="d15380f01867fb0f66a13165a708bf5c" category="inline-link-macro">Aviso para o software Element 12,5</block>
-  <block id="423799f17e78311081590d2442b613a4" category="list-text"><block ref="423799f17e78311081590d2442b613a4" category="inline-link-macro-rx"></block></block>
   <block id="fe69a3287756ee47fc4650a84806448a" category="inline-link-macro">Aviso para NetApp SolidFire Enterprise SDS 12,5</block>
-  <block id="cea5e0a644db9d6823bca6c05e5ee050" category="list-text"><block ref="cea5e0a644db9d6823bca6c05e5ee050" category="inline-link-macro-rx"></block></block>
   <block id="5b86bf0a1903cc9047cd68ef97be17fa" category="inline-link-macro">Aviso para nó de gerenciamento 12,5</block>
-  <block id="45b91251436ab38cfb4661d9970ae5ad" category="list-text"><block ref="45b91251436ab38cfb4661d9970ae5ad" category="inline-link-macro-rx"></block></block>
   <block id="4ba16aa779bc8ad075658a848d8a534f" category="inline-link-macro">Aviso para a função Ansible para upgrades de computação</block>
-  <block id="92650cf5badd89aace1461d0525236fd" category="list-text"><block ref="92650cf5badd89aace1461d0525236fd" category="inline-link-macro-rx"></block></block>
   <block id="878e10f3ecb83396704ecc4b39ad7aa2" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2.182.0</block>
-  <block id="9e043b2c98cbfab6237701383428d7df" category="list-text"><block ref="9e043b2c98cbfab6237701383428d7df" category="inline-link-macro-rx"></block></block>
   <block id="02c0403c810268dcde8e00ec374d7aec" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2.179.0</block>
-  <block id="8d3240366b998899f7314c2fafdd4f5c" category="list-text"><block ref="8d3240366b998899f7314c2fafdd4f5c" category="inline-link-macro-rx"></block></block>
   <block id="165ffb421393136ac7930e23c971a009" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2.175.0</block>
-  <block id="112f8e7ac3d8ebc58aaf4c3565f340b0" category="list-text"><block ref="112f8e7ac3d8ebc58aaf4c3565f340b0" category="inline-link-macro-rx"></block></block>
   <block id="dfa721c0f57e3559aa22a411a4ad2fb0" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2.174.0</block>
-  <block id="4d34470d64d9d2f569cd7f9c561a9343" category="list-text"><block ref="4d34470d64d9d2f569cd7f9c561a9343" category="inline-link-macro-rx"></block></block>
   <block id="b3fd978e1e630b556afd6edea55c9c64" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2,164</block>
-  <block id="03f5f4b1e389bcd74f9c1cc6e865637f" category="list-text"><block ref="03f5f4b1e389bcd74f9c1cc6e865637f" category="inline-link-macro-rx"></block></block>
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2,150</block>
-  <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
   <block id="5eb0bcdf6eff7a408414590c81d98183" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2.154.4</block>
-  <block id="007f90b7875049f66b3609b089201095" category="list-text"><block ref="007f90b7875049f66b3609b089201095" category="inline-link-macro-rx"></block></block>
   <block id="a4f0b4cd8ed43da899bf23d0cc006ec8" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2,146</block>
-  <block id="976f425b451919895bc3cde2d81dd6c3" category="list-text"><block ref="976f425b451919895bc3cde2d81dd6c3" category="inline-link-macro-rx"></block></block>
   <block id="7ca92aa55af86adcb8e4f02055e5d1f3" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2,146</block>
-  <block id="070e6ce33f7ff2e60a2783c8ebb93cce" category="list-text"><block ref="070e6ce33f7ff2e60a2783c8ebb93cce" category="inline-link-macro-rx"></block></block>
   <block id="2e5993f9d970daebf225967bb1e45acc" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2.99.2</block>
-  <block id="9b66050651411f30ce4e4e60cd49154f" category="list-text"><block ref="9b66050651411f30ce4e4e60cd49154f" category="inline-link-macro-rx"></block></block>
   <block id="4b07ee081088aae3fb4d0eecd6d5e33c" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2,76</block>
-  <block id="620e2d12cdf5e08b9753be70962af1c2" category="list-text"><block ref="620e2d12cdf5e08b9753be70962af1c2" category="inline-link-macro-rx"></block></block>
   <block id="927feedbfb9bbc4a93e285ba9504ab0b" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2,76</block>
-  <block id="8ef06865130f39fba4f2f1bd57b10db9" category="list-text"><block ref="8ef06865130f39fba4f2f1bd57b10db9" category="inline-link-macro-rx"></block></block>
   <block id="15eb0cb82eab0a91d0477b28cedc9e6d" category="inline-link-macro">Aviso para o pacote de firmware do Compute 2,27</block>
-  <block id="fc252c43c5ce275603b4d02a0185de6e" category="list-text"><block ref="fc252c43c5ce275603b4d02a0185de6e" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">Aviso para o pacote de firmware de armazenamento 2,27</block>
-  <block id="628635daa878466322430a063a3be8a2" category="list-text"><block ref="628635daa878466322430a063a3be8a2" category="inline-link-macro-rx"></block></block>
   <block id="24ebb39da100996506dfec70b3c18c3e" category="inline-link-macro">Aviso para Compute firmware ISO</block>
-  <block id="0a3fa8cc98ca1fccda9e33f500cd1a33" category="list-text"><block ref="0a3fa8cc98ca1fccda9e33f500cd1a33" category="inline-link-macro-rx"></block></block>
   <block id="a04e943dbcdb750d041999712b0c3468" category="inline-link-macro">Aviso para H610S BMC</block>
-  <block id="c0897cc71834939a3e05ac01145a60a3" category="list-text"><block ref="c0897cc71834939a3e05ac01145a60a3" category="inline-link-macro-rx"></block></block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.25.42 (plug-in do NetApp Element para VMware vCenter Server 5,3.9)</block>
-  <block id="f7e890b0a90e234e4df04fc0c6b8c6a7" category="list-text"><block ref="f7e890b0a90e234e4df04fc0c6b8c6a7" category="inline-link-macro-rx"></block></block>
   <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.24.40 (plug-in do NetApp Element para VMware vCenter Server 5,2.12)</block>
-  <block id="1f3c662e49f317f7c70a24adc13870a1" category="list-text"><block ref="1f3c662e49f317f7c70a24adc13870a1" category="inline-link-macro-rx"></block></block>
   <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.23.64 (plug-in do NetApp Element para VMware vCenter Server 5,1.12)</block>
-  <block id="adb27ccd96e9d86f5b808b75377f9b5d" category="list-text"><block ref="adb27ccd96e9d86f5b808b75377f9b5d" category="inline-link-macro-rx"></block></block>
   <block id="93c82fa50530ab1db18373f37f38e453" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.22.7 (plug-in do NetApp Element para VMware vCenter Server 5,0.37)</block>
-  <block id="7b34a7cbcce764e8d1ad156461cf35c3" category="list-text"><block ref="7b34a7cbcce764e8d1ad156461cf35c3" category="inline-link-macro-rx"></block></block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">Aviso para serviços de gerenciamento 2.21.61 (plug-in do NetApp Element para VMware vCenter Server 4.10.12)</block>
-  <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
   <block id="91973e8fa965f2bdba61e9b8919b4ee5" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.20.69 (plug-in NetApp Element para vCenter Server 4,9.14)</block>
-  <block id="55e4360e9b62728478e508dd54c47f2e" category="list-text"><block ref="55e4360e9b62728478e508dd54c47f2e" category="inline-link-macro-rx"></block></block>
   <block id="c6df14aa71e88712620087ef3c0051b8" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.19.48 (plug-in NetApp Element para vCenter Server 4,8.34)</block>
-  <block id="9d3d776c7146d1b002c55948105f2248" category="list-text"><block ref="9d3d776c7146d1b002c55948105f2248" category="inline-link-macro-rx"></block></block>
   <block id="e9ddfae2256b1bb9c9a0f68ff44e48e4" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.18.91 (plug-in NetApp Element para vCenter Server 4,7.10)</block>
-  <block id="06b9516dcd92ed07013c1b7a7a44c596" category="list-text"><block ref="06b9516dcd92ed07013c1b7a7a44c596" category="inline-link-macro-rx"></block></block>
   <block id="92f931e19caf8af4e3a31a82b06ccabd" category="summary">Obtenha links para notas de lançamento dos pacotes de firmware que você pode baixar e aplicar aos nós do NetApp HCI.</block>
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="doc">Notas de lançamento do H610S BMC 3.84.07</block>
   <block id="827bfc39c509a57ee1208c03828de165" category="paragraph">A atualização do BMC para download contém aprimoramentos de recursos do BMC e correções de bugs para os nós do NetApp H610S.</block>
@@ -6220,9 +6187,42 @@
   <block id="9a273d2d550df11ef961cf667f623547" category="sidebar">Expanda os recursos de computação e storage do NetApp</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">Mantenha o hardware da série H.</block>
   <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.26.30 (plug-in do NetApp Element para VMware vCenter Server 5,4.1)</block>
-  <block id="a6797c051ad351f2872ce5ea539ca689" category="list-text"><block ref="a6797c051ad351f2872ce5ea539ca689" category="inline-link-macro-rx"></block></block>
   <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">Notas de versão do vCenter Plug-in 5,4</block>
   <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block> _NOVO_</block>
   <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
   <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">Você está atualizando para o Element Plug-in para vCenter Server 5,4, 5,3, 5,2, 5,1 ou 5,0.</block>
+  <block id="50923856d0e5dfbe847d5f56c774264b" category="list-text"><block ref="50923856d0e5dfbe847d5f56c774264b" category="inline-link-macro-rx"></block></block>
+  <block id="ab73a3f8818312d49869de237a845464" category="list-text"><block ref="ab73a3f8818312d49869de237a845464" category="inline-link-macro-rx"></block></block>
+  <block id="56e5995b672eb3b444091a7a02e9f649" category="list-text"><block ref="56e5995b672eb3b444091a7a02e9f649" category="inline-link-macro-rx"></block></block>
+  <block id="a906487a007d594fc20699a82221d349" category="list-text"><block ref="a906487a007d594fc20699a82221d349" category="inline-link-macro-rx"></block></block>
+  <block id="3c5090370b1f2f15bd46e0a4475e0df3" category="list-text"><block ref="3c5090370b1f2f15bd46e0a4475e0df3" category="inline-link-macro-rx"></block></block>
+  <block id="666d0726b52e2f2825f461badc8414a8" category="list-text"><block ref="666d0726b52e2f2825f461badc8414a8" category="inline-link-macro-rx"></block></block>
+  <block id="a98228377241429f03c99eedec91c522" category="list-text"><block ref="a98228377241429f03c99eedec91c522" category="inline-link-macro-rx"></block></block>
+  <block id="3dcbe7b9be7ae83a929a25e122289702" category="list-text"><block ref="3dcbe7b9be7ae83a929a25e122289702" category="inline-link-macro-rx"></block></block>
+  <block id="b691b91f1208379346de4d69f8c840f1" category="list-text"><block ref="b691b91f1208379346de4d69f8c840f1" category="inline-link-macro-rx"></block></block>
+  <block id="d087896b0989dfd81184775fcc160ca1" category="list-text"><block ref="d087896b0989dfd81184775fcc160ca1" category="inline-link-macro-rx"></block></block>
+  <block id="81b94a6aaa0c73a21fe54b6cc239ddba" category="list-text"><block ref="81b94a6aaa0c73a21fe54b6cc239ddba" category="inline-link-macro-rx"></block></block>
+  <block id="3196b7dfc407df76dfe72528882d792a" category="list-text"><block ref="3196b7dfc407df76dfe72528882d792a" category="inline-link-macro-rx"></block></block>
+  <block id="9bb57af7d6871daa7d77177fe7a05733" category="list-text"><block ref="9bb57af7d6871daa7d77177fe7a05733" category="inline-link-macro-rx"></block></block>
+  <block id="56ebf8909766dbb1ef39989564da2bfa" category="list-text"><block ref="56ebf8909766dbb1ef39989564da2bfa" category="inline-link-macro-rx"></block></block>
+  <block id="24918f39116096f98dc92e1125b8a780" category="list-text"><block ref="24918f39116096f98dc92e1125b8a780" category="inline-link-macro-rx"></block></block>
+  <block id="f9d9ba15a6f4d204f8dc41a47e0ff23f" category="list-text"><block ref="f9d9ba15a6f4d204f8dc41a47e0ff23f" category="inline-link-macro-rx"></block></block>
+  <block id="7a0a6b8351b186d782f2b5b12a09f9d1" category="list-text"><block ref="7a0a6b8351b186d782f2b5b12a09f9d1" category="inline-link-macro-rx"></block></block>
+  <block id="e0a2b3604cb7980931b047c5b79b7334" category="list-text"><block ref="e0a2b3604cb7980931b047c5b79b7334" category="inline-link-macro-rx"></block></block>
+  <block id="96d39df4d07a61aada740f0716155f51" category="list-text"><block ref="96d39df4d07a61aada740f0716155f51" category="inline-link-macro-rx"></block></block>
+  <block id="f77a37db2275406d3d7de2688fdf5293" category="list-text"><block ref="f77a37db2275406d3d7de2688fdf5293" category="inline-link-macro-rx"></block></block>
+  <block id="69b7535618573fd609dc8b4663c8b8c0" category="list-text"><block ref="69b7535618573fd609dc8b4663c8b8c0" category="inline-link-macro-rx"></block></block>
+  <block id="f1a0148c13871b8d939879c1fe67614a" category="list-text"><block ref="f1a0148c13871b8d939879c1fe67614a" category="inline-link-macro-rx"></block></block>
+  <block id="656e3f29cbe522931c455a5e233d1c6f" category="list-text"><block ref="656e3f29cbe522931c455a5e233d1c6f" category="inline-link-macro-rx"></block></block>
+  <block id="50ce0afdc280452f807d9cadc934e70d" category="list-text"><block ref="50ce0afdc280452f807d9cadc934e70d" category="inline-link-macro-rx"></block></block>
+  <block id="782279fa2517c048d3f08897e94b8e22" category="list-text"><block ref="782279fa2517c048d3f08897e94b8e22" category="inline-link-macro-rx"></block></block>
+  <block id="ea3b1d5907ee8e4303c54ecc7765f0f2" category="list-text"><block ref="ea3b1d5907ee8e4303c54ecc7765f0f2" category="inline-link-macro-rx"></block></block>
+  <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
+  <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
+  <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
+  <block id="08051f25eb15067f82271c19a19ded03" category="list-text"><block ref="08051f25eb15067f82271c19a19ded03" category="inline-link-macro-rx"></block></block>
+  <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
+  <block id="f0fe2934aa8d8cec985fef2e0c464532" category="list-text"><block ref="f0fe2934aa8d8cec985fef2e0c464532" category="inline-link-macro-rx"></block></block>
+  <block id="08c1b18f2bce38d2bceb61af5b8c4c6e" category="list-text"><block ref="08c1b18f2bce38d2bceb61af5b8c4c6e" category="inline-link-macro-rx"></block></block>
+  <block id="c1f2aa244c34463b7aea4f2b566f9420" category="list-text"><block ref="c1f2aa244c34463b7aea4f2b566f9420" category="inline-link-macro-rx"></block></block>
 </blocks>
