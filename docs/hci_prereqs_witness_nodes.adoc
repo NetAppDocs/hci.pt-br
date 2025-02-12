@@ -36,7 +36,9 @@ O NetApp HCI é compatível com apenas certos modelos de nós de storage em clus
 ====
 *Requisito*: Configure as VMs do nó testemunha para usar o datastore local (padrão definido pelo NDE) para o nó de computação. Você não deve configurá-los em armazenamento compartilhado, como volumes de armazenamento SolidFire. Para impedir que as VMs migrem automaticamente, defina o nível de automação do DRS (Distributed Resource Scheduler) para a VM Witness Node como *Disabled*. Isso impede que ambos os nós de testemunhas sejam executados no mesmo nó de computação e criem uma configuração de par de HA (non-high availability).
 
-Quando o processo de instalação do NetApp HCI instala nós de testemunha, um modelo de VM é armazenado no VMware vCenter que você pode usar para reimplantar um nó de testemunha caso ele seja removido, perdido ou corrompido acidentalmente. Você também pode usar o modelo para reimplantar um nó de testemunha se precisar substituir um nó de computação com falha que estava hospedando o nó de testemunha. Para obter instruções, consulte a seção *Redeploy Witness Nodes para clusters de storage de dois e três nós* link:task_hci_h410crepl.html["aqui"^].
+Quando o processo de instalação do NetApp HCI instala nós de testemunha, um modelo de VM é armazenado no VMware vCenter que você pode usar para reimplantar um nó de testemunha caso ele seja removido, perdido ou corrompido acidentalmente. Você também pode usar o modelo para reimplantar um nó de testemunha se precisar substituir um nó de computação com falha que estava hospedando o nó de testemunha. Para obter instruções, link:task_hci_h410crepl.html["Reimplante nós de testemunhas para clusters de storage de dois ou três nós"]consulte .
+
+Se você estiver executando uma atualização no local de um nó testemunha existente para o elemento 12,8, antes de atualizar, você deve garantir que a versão de hardware da VM no nó testemunha seja compatível com o ESXi 6,7 (versão de hardware da VM 14) ou posterior, dependendo do seu ambiente. link:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["Atualize a versão do hardware da VM"]Consulte .
 
 ====
 

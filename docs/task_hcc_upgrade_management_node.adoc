@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
 summary: Como parte de uma atualização do sistema NetApp HCI, você atualiza o nó de gerenciamento. 
-keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7 
+keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7, 12.8 
 ---
 = Atualizar um nó de gerenciamento
 :allow-uri-read: 
@@ -16,8 +16,30 @@ A atualização do sistema operacional de nós de gerenciamento não é mais nec
 
 NOTE: Se você precisar de informações sobre a atualização dos nós de gerenciamento 12,2 ou anteriores, consulte o https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["Documentação de atualização do nó de gerenciamento do NetApp HCI 1,9"^].
 
-.Opções de atualização
-Escolha uma das seguintes opções:
+
+
+== Etapa 1: Atualize a versão do hardware da VM em um nó de gerenciamento
+
+Se você estiver executando uma atualização no local de um nó de gerenciamento existente para o elemento 12,8, antes de atualizar, certifique-se de que a versão de hardware da VM no nó de gerenciamento seja compatível com o ESXi 6,7 (hardware da VM versão 14) ou posterior, dependendo do seu ambiente.
+
+
+NOTE: Você também pode seguir estas etapas para atualizar a versão do hardware da VM nos nós de testemunha.
+
+.Passos
+. Faça login no vSphere Web Client como um vCenter Administrator.
+. No menu vSphere Client, selecione *VMs* e *Templates*.
+. Clique com o botão direito do rato na máquina virtual e selecione *Compatibilidade* > *Atualizar a compatibilidade da VM*.
+. Selecione *Sim*.
+. Selecione ESXi 6,7 ou uma versão posterior, dependendo da versão do seu ambiente vSphere.
+. Selecione *OK*.
+. Após a conclusão da atualização, selecione *vSphere client refresh* e verifique se a compatibilidade da VM está na versão desejada.
+
+
+
+
+== Etapa 2: Atualize um nó de gerenciamento para o elemento 12,5 ou posterior
+
+Escolha uma das seguintes opções de atualização:
 
 * <<Atualize um nó de gerenciamento para a versão 12,5 ou posterior a partir da versão 12,3.x ou posterior>>
 * <<Reconfigure a autenticação usando a API REST do nó de gerenciamento>>
@@ -31,14 +53,14 @@ NOTE: Se você não atualizar sequencialmente seus serviços de gerenciamento se
 
 
 
-== Atualize um nó de gerenciamento para a versão 12,5 ou posterior a partir da versão 12,3.x ou posterior
+=== Atualize um nó de gerenciamento para a versão 12,5 ou posterior a partir da versão 12,3.x ou posterior
 
 Você pode fazer uma atualização no local do nó de gerenciamento da versão 12,3.x ou posterior para a versão 12,5 ou posterior sem precisar provisionar uma nova máquina virtual de nó de gerenciamento.
 
 
 NOTE: O nó de gerenciamento do Element 12,5 ou posterior é uma atualização opcional. Não é necessário para implantações existentes.
 
-.O que você vai precisar
+.Antes de começar
 * A RAM da VM do nó de gerenciamento é 24GB.
 * O nó de gerenciamento que você pretende atualizar é a versão 12,0 e usa a rede IPv4. O nó de gerenciamento versão 12,5 ou posterior não suporta IPv6.
 +
@@ -124,7 +146,7 @@ IMPORTANT: Se você já tinha desabilitado a funcionalidade SSH no nó de gerenc
 
 
 
-== Reconfigure a autenticação usando a API REST do nó de gerenciamento
+=== Reconfigure a autenticação usando a API REST do nó de gerenciamento
 
 Você pode manter seu nó de gerenciamento existente se tiver atualizado sequencialmente (1) serviços de gerenciamento e (2) storage de elementos. Se você seguiu uma ordem de atualização diferente, consulte os procedimentos para atualizações de nós de gerenciamento no local.
 
@@ -157,7 +179,8 @@ O corpo de resposta indica que a reconfiguração foi bem-sucedida.
 
 
 
-[discrete]
+
+
 == Encontre mais informações
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]

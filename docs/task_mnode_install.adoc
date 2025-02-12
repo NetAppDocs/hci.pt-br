@@ -18,7 +18,7 @@ Você pode instalar manualmente o nó de gerenciamento do cluster que executa o 
 
 Este processo manual destina-se a administradores do NetApp HCI que não estejam usando o mecanismo de implantação do NetApp para instalação do nó de gerenciamento.
 
-.O que você vai precisar
+.Antes de começar
 * A versão do cluster está executando o software NetApp Element 11,3 ou posterior.
 * Sua instalação usa IPv4. O nó de gerenciamento 11,3 não oferece suporte ao IPv6.
 +
@@ -55,19 +55,13 @@ O nó de gerenciamento do Element 12,2 é uma atualização opcional. Não é ne
 
 Antes de seguir este procedimento, você deve ter uma compreensão link:concept_hci_volumes.html#persistent-volumes["volumes persistentes"]e se deseja ou não usá-los. Os volumes persistentes são opcionais, mas recomendados para a recuperação de dados de configuração de nó de gerenciamento no caso de perda de uma máquina virtual (VM).
 
+
+
+== Passo 1: Baixe ISO ou OVA e implante a VM
+
+Transfira a ISO ou OVA adequada a partir do site de suporte da NetApp e instale a VM.
+
 .Passos
-. <<Baixe ISO ou OVA e implante a VM>>
-. <<Crie o administrador do nó de gerenciamento e configure a rede>>
-. <<Configurar a sincronização da hora>>
-. <<Configure o nó de gerenciamento>>
-. <<Configurar ativos do controlador>>
-. <<Configure compute node assets,(Somente NetApp HCI) Configurar ativos de nós de computação>>
-
-
-
-
-== Baixe ISO ou OVA e implante a VM
-
 . Transfira a OVA ou ISO para a sua instalação a partir da https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] página no site de suporte da NetApp:
 +
 .. Selecione *Download Latest Release* e aceite o EULA.
@@ -112,8 +106,11 @@ NOTE: A instalação de um nó de gerenciamento usando a imagem pode resultar em
 
 
 
-== Crie o administrador do nó de gerenciamento e configure a rede
+== Etapa 2: Crie o administrador do nó de gerenciamento e configure a rede
 
+Após a conclusão da instalação da VM, crie o usuário de administrador do nó de gerenciamento e configure a rede do nó de gerenciamento.
+
+.Passos
 . Usando a interface do usuário de terminal (TUI), crie um usuário de administrador de nó de gerenciamento.
 +
 
@@ -140,8 +137,11 @@ NOTE: Se você precisar de uma NIC adicional para isolar o tráfego de armazenam
 
 
 
-== Configurar a sincronização da hora
+== Passo 3: Configurar a sincronização de tempo
 
+Antes de configurar o nó de gerenciamento, sincronize o tempo entre o nó de gerenciamento e o cluster de storage.
+
+.Passos
 . Certifique-se de que o tempo é sincronizado entre o nó de gerenciamento e o cluster de armazenamento usando NTP:
 +
 
@@ -219,8 +219,11 @@ NOTE: Não edite o NTP depois de concluir a configuração de sincronização de
 
 
 
-== Configure o nó de gerenciamento
+== Etapa 4: Configure o nó de gerenciamento
 
+Configure o nó de gerenciamento usando o `setup-mnode` comando.
+
+.Passos
 . Configure e execute o comando de configuração do nó de gerenciamento:
 +
 
@@ -282,8 +285,11 @@ NOTE: Use um nome de conta exclusivo para volumes persistentes que seja diferent
 
 
 
-== Configurar ativos do controlador
+== Etapa 5: Configurar ativos do controlador
 
+Localize o ID de instalação e adicione um ativo do controlador vCenter.
+
+.Passos
 . Localize a ID de instalação:
 +
 .. A partir de um navegador, faça login na IU da API REST do nó de gerenciamento:
@@ -348,20 +354,20 @@ NOTE: Você deve criar uma nova função HCC do NetApp no vCenter para adicionar
 
 
 
-== (Somente NetApp HCI) Configurar ativos de nós de computação
+== Etapa 6: (Somente NetApp HCI) Configurar ativos de nós de computação
 
-. (Somente para NetApp HCI) Adicione um ativo de nó de computação ao nó de gerenciamento ativos conhecidos:
-+
-.. Selecione *POST /assets/(Asset_id)/Compute-nonos* para adicionar um subativo de nó de computação com credenciais para o ativo de nó de computação.
-.. Selecione *Experimente*.
-.. Insira o ID do ativo base pai que você copiou para a área de transferência no campo *ASSET_id*.
-.. Na carga útil, introduza os valores de carga útil necessários, conforme definido no separador modelo. Introduza `ESXi Host` como `type` e introduza a etiqueta de hardware que guardou durante uma etapa anterior para `hardware_tag`.
-.. Selecione *Executar*.
+Adicione um ativo de nó de computação aos ativos conhecidos do nó de gerenciamento
+
+.Passos
+. Selecione *POST /assets/(Asset_id)/Compute-nonos* para adicionar um subativo de nó de computação com credenciais para o ativo de nó de computação.
+. Selecione *Experimente*.
+. Insira o ID do ativo base pai que você copiou para a área de transferência no campo *ASSET_id*.
+. Na carga útil, introduza os valores de carga útil necessários, conforme definido no separador modelo. Introduza `ESXi Host` como `type` e introduza a etiqueta de hardware que guardou durante uma etapa anterior para `hardware_tag`.
+. Selecione *Executar*.
 
 
 
 
-[discrete]
 == Encontre mais informações
 
 * link:concept_hci_volumes.html#persistent-volumes["Volumes persistentes"]

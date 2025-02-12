@@ -47,6 +47,7 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.
 
 * link:./media/NetApp_HCI_1.11_notice.pdf["Aviso para NetApp HCI 1,11"^]
+* link:../media/Element_Software_12.8.pdf["Aviso para o software Element 12,8"^]
 * link:./media/Element_Software_12.7.pdf["Aviso para o software Element 12,7"^]
 * link:./media/Ember_OS_12.7.pdf["Aviso para o Ember os 12,7"^]
 * link:./media/mNode_12.7.pdf["Aviso para nó de gerenciamento 12,7"^]

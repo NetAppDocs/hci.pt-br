@@ -1357,7 +1357,6 @@
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="cell">Tamanho do disco</block>
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67 GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">O NetApp HCI é compatível com apenas certos modelos de nós de storage em clusters de storage de dois ou três nós. Para obter mais informações, consulte as Notas de versão da sua versão do NetApp HCI.</block>
-  <block id="edc66b1482b45fd0e89fdbe4ba094191" category="paragraph">Quando o processo de instalação do NetApp HCI instala nós de testemunha, um modelo de VM é armazenado no VMware vCenter que você pode usar para reimplantar um nó de testemunha caso ele seja removido, perdido ou corrompido acidentalmente. Você também pode usar o modelo para reimplantar um nó de testemunha se precisar substituir um nó de computação com falha que estava hospedando o nó de testemunha. Para obter instruções, consulte a seção *Redeploy Witness Nodes para clusters de storage de dois e três nós* <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>.</block>
   <block id="3d57c700c41601cb011883231fb4e5b8" category="summary">O NetApp HCI permite que você implante serviços de nuvem em vários fornecedores de nuvem pública e no local. Você pode usar o NetApp HCI para implantar serviços semelhantes ao que pode fazer com um provedor de nuvem, tudo em um modo de autoatendimento sem envolvimento DA TI.</block>
   <block id="f5925eb0265a585d14f6a64ad359e976" category="doc">Soluções de HCI da NetApp</block>
   <block id="4f8fc3e1fce78186b06dfda99cdedd17" category="paragraph">As soluções da NetApp HCI ajudam você a obter performance em escala com vários workloads na mesma infraestrutura sem atritos.</block>
@@ -1996,8 +1995,6 @@
   <block id="0400038e3cce41a0680914fdbddac771" category="list-text">Melhorar a utilização do desgaste do flash BMC</block>
   <block id="9cea15d48c9b5a9632827b358396e207" category="doc">O que há de novo no NetApp HCI</block>
   <block id="9919e22324d983d998afd33f187a0a61" category="paragraph">O NetApp atualiza periodicamente o NetApp HCI para trazer novos recursos, aprimoramentos e correções de bugs. O NetApp HCI 1,10 inclui o software Element 12,5 para clusters de storage.</block>
-  <block id="6f0ce5bfc09a3a4d8737b564d5879f31" category="inline-link">Saiba mais sobre o que há de novo no Element 12,7</block>
-  <block id="f10aa2cb8c994fef24ceca1ee43e4208" category="admonition">O software Element 12,7 é a versão mais recente e inclui atualizações de segurança e componentes do sistema, melhorias operacionais e problemas resolvidos.<block ref="d071d61ca9198e87abb60c485f07eada" category="inline-link-rx"></block>.</block>
   <block id="53f59c169b2bb48ac0b8253252a06467" category="list-text">A <block ref="72c4f5351976259ad654b85496cb20be" category="inline-xref-macro-rx"></block> seção descreve novos recursos e atualizações no NetApp HCI versão 1,10.</block>
   <block id="2a0ce9a56c6130320cccb8a7f34ec593" category="list-text">A <block ref="18a6515b1da0f2a2d89c5832cee91752" category="inline-xref-macro-rx"></block> seção descreve novos recursos e atualizações no elemento 12,5.</block>
   <block id="3f1ab5f7c40b8fa8fd0a42ff36510c23" category="section-title">NetApp HCI 1,10</block>
@@ -5000,12 +4997,7 @@
   <block id="2b041c08ffacbc430053ddd70cfed8ea" category="inline-link-macro">volumes persistentes</block>
   <block id="7f10e6e99f08f394e823f7104513126a" category="paragraph">Antes de seguir este procedimento, você deve ter uma compreensão <block ref="6f73bacaba2e470844b654fcbffb809f" category="inline-link-macro-rx"></block>e se deseja ou não usá-los. Os volumes persistentes são opcionais, mas recomendados para a recuperação de dados de configuração de nó de gerenciamento no caso de perda de uma máquina virtual (VM).</block>
   <block id="47a326e49e46acb78cf32cae1353fcac" category="list-text"><block ref="581882d49acbe8ab5e8325e4c151b8db" category="inline-xref-macro-rx"></block></block>
-  <block id="d65a2ab43bcac7efebde7effc9d142f8" category="list-text"><block ref="4e8e62755aa10b5d2420c05d87c0085a" category="inline-xref-macro-rx"></block></block>
   <block id="cd7b2f0814db99464baac1222444932f" category="list-text"><block ref="cbfedbfc47267d0d76c848bfa4f73e5d" category="inline-xref-macro-rx"></block></block>
-  <block id="c92609be7302c756d6d918553df475c1" category="list-text"><block ref="d9e86326331a25418b718094ae602c19" category="inline-xref-macro-rx"></block></block>
-  <block id="0267f7e06220d0fa6fb42578b5746da3" category="list-text"><block ref="b41cb2f7bd156a4035cdf9347b89cebe" category="inline-xref-macro-rx"></block></block>
-  <block id="067315cbc6353502fa36a4f8722badbd" category="inline-xref">(Somente NetApp HCI) Configurar ativos de nós de computação</block>
-  <block id="cc41647231a76da233743c53a496e137" category="list-text"><block ref="fab01553c96541ce7ac54638294897d8" category="inline-xref-macro-rx"></block></block>
   <block id="5bf2236fb0d245894b988f96a0ff32f6" category="section-title">Baixe ISO ou OVA e implante a VM</block>
   <block id="2caa79e72de1ebc3a96da19b6a92c451" category="list-text">Transfira a OVA ou ISO para a sua instalação a partir da<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> página no site de suporte da NetApp:</block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">Selecione *Download Latest Release* e aceite o EULA.</block>
@@ -5026,7 +5018,6 @@
   <block id="1632315c8463eb1e9d1b980297d68c37" category="list-text">Anexe o ISO à VM e inicialize na imagem de instalação .iso.</block>
   <block id="61106ad2e01de8b06da3caf17edacd33" category="admonition">A instalação de um nó de gerenciamento usando a imagem pode resultar em atraso de 30 segundos antes que a tela inicial seja exibida.</block>
   <block id="faa024991ac61fa39b20d61ed2e88ada" category="list-text">Ligue a VM para o nó de gerenciamento após a conclusão da instalação.</block>
-  <block id="f894cbc944582e1f10fec4bf2a0639f0" category="section-title">Crie o administrador do nó de gerenciamento e configure a rede</block>
   <block id="89a5998e39cd115fb9ad9a738c937a43" category="list-text">Usando a interface do usuário de terminal (TUI), crie um usuário de administrador de nó de gerenciamento.</block>
   <block id="0fa5092b4d1d6032dc65fd0a3c71a906" category="admonition">Para percorrer as opções do menu, prima as teclas de seta para cima ou para baixo. Para percorrer os botões, prima Tab. Para passar dos botões para os campos, prima Tab. Para navegar entre campos, pressione as teclas de seta para cima ou para baixo.</block>
   <block id="c19f63a05ffe39159954c2b2fd892582" category="list-text">Se houver um servidor DHCP (Dynamic Host Configuration Protocol) na rede que atribua IPs com uma unidade máxima de transmissão (MTU) inferior a 1500 bytes, você deve executar as seguintes etapas:</block>
@@ -5059,7 +5050,6 @@
   <block id="29c3f66306d4b9c80ad86deebb2fabcf" category="admonition">Não ative essa opção se você fizer alterações futuras na VM.</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">comando de configuração</block>
   <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">Não edite o NTP depois de concluir a configuração de sincronização de tempo porque afeta o NTP quando executa o <block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block> no nó de gestão.</block>
-  <block id="627bbdc5a7179606b85a5d6ccb6f65e1" category="section-title">Configure o nó de gerenciamento</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">Configure e execute o comando de configuração do nó de gerenciamento:</block>
   <block id="58df37229524fed632f3c53880c146c3" category="admonition">Você será solicitado a inserir senhas em um prompt seguro. Se o cluster estiver atrás de um servidor proxy, você deverá configurar as configurações de proxy para que você possa chegar a uma rede pública.</block>
   <block id="57aa15c5b6505e27c5150f48bdab73d6" category="list-text">Substitua o valor entre parênteses [ ] (incluindo os colchetes) para cada um dos seguintes parâmetros necessários:</block>
@@ -5086,7 +5076,6 @@
   <block id="aabee241823de4ff993b60d0a196a387" category="list-text">(Opcional) Use a ajuda de parâmetros se você precisar de informações adicionais sobre cada parâmetro:</block>
   <block id="f89c180fd45cb0275c5ee18e59d2b43d" category="list-text">*--help (-h)*: Retorna informações sobre cada parâmetro. Os parâmetros são definidos como necessários ou opcionais com base na implantação inicial. Os requisitos de parâmetros de atualização e reimplantação podem variar.</block>
   <block id="79032d0c879c3afbbb570dd870eb09e1" category="list-text">Executar o<block ref="73028873f2b0a018096b6a3d871634b5" prefix=" " category="inline-code"></block> comando.</block>
-  <block id="7ea2768c656768f853cd68b9066eba0f" category="section-title">Configurar ativos do controlador</block>
   <block id="4240350efa82cb4b2d0dcd00f64f496b" category="list-text">Localize a ID de instalação:</block>
   <block id="81b4d8ce3b6d3d31bcc065c5589192ab" category="list-text">A partir de um navegador, faça login na IU da API REST do nó de gerenciamento:</block>
   <block id="ed4faf2b135a0f2d74eef06f6fd8899e" category="list-text">Aceda ao MVIP de armazenamento e inicie sessão. Esta ação faz com que o certificado seja aceite para a próxima etapa.</block>
@@ -5100,7 +5089,6 @@
   <block id="8cfb9a9c7c3001a95af6d09549cdabaa" category="list-text">Selecione *POST /assets/ Asset_id/controllers* para adicionar um subativo de controlador.</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">Você deve criar uma nova função HCC do NetApp no vCenter para adicionar um subativo do controlador. Essa nova função HCC do NetApp limitará a visualização de serviços de nó de gerenciamento a ativos somente do NetApp. <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">Insira os valores de carga útil necessários com o tipo<block ref="e10ca1adb349a5228f7573a244805247" prefix=" " category="inline-code"></block> e as credenciais do vCenter.</block>
-  <block id="421226b233bd18f9c1f8d179419a2f39" category="list-text">(Somente para NetApp HCI) Adicione um ativo de nó de computação ao nó de gerenciamento ativos conhecidos:</block>
   <block id="59cb038ca0d26b60e9eda25d59ec865b" category="list-text">Selecione *POST /assets/(Asset_id)/Compute-nonos* para adicionar um subativo de nó de computação com credenciais para o ativo de nó de computação.</block>
   <block id="ea32544c4914661e6b948f2891dd6a83" category="list-text">Na carga útil, introduza os valores de carga útil necessários, conforme definido no separador modelo. Introduza<block ref="b0429e6f6291e7688c57a970fe0a03bc" prefix=" " category="inline-code"></block> como<block ref="599dcce2998a6b40b1e38e8c6006cb0a" prefix=" " category="inline-code"></block> e introduza a etiqueta de hardware que guardou durante uma etapa anterior para<block ref="881962cb2470d984f65313a8e4ceec64" prefix=" " category="inline-code"></block>.</block>
   <block id="2ca8b91b8c27928feab2dbf1c98a1cc9" category="list-text"><block ref="2ca8b91b8c27928feab2dbf1c98a1cc9" category="inline-link-macro-rx"></block></block>
@@ -6225,4 +6213,36 @@
   <block id="f0fe2934aa8d8cec985fef2e0c464532" category="list-text"><block ref="f0fe2934aa8d8cec985fef2e0c464532" category="inline-link-macro-rx"></block></block>
   <block id="08c1b18f2bce38d2bceb61af5b8c4c6e" category="list-text"><block ref="08c1b18f2bce38d2bceb61af5b8c4c6e" category="inline-link-macro-rx"></block></block>
   <block id="c1f2aa244c34463b7aea4f2b566f9420" category="list-text"><block ref="c1f2aa244c34463b7aea4f2b566f9420" category="inline-link-macro-rx"></block></block>
+  <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">Reimplante nós de testemunhas para clusters de storage de dois ou três nós</block>
+  <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">Quando o processo de instalação do NetApp HCI instala nós de testemunha, um modelo de VM é armazenado no VMware vCenter que você pode usar para reimplantar um nó de testemunha caso ele seja removido, perdido ou corrompido acidentalmente. Você também pode usar o modelo para reimplantar um nó de testemunha se precisar substituir um nó de computação com falha que estava hospedando o nó de testemunha. Para obter instruções, <block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">Atualize a versão do hardware da VM</block>
+  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">Se você estiver executando uma atualização no local de um nó testemunha existente para o elemento 12,8, antes de atualizar, você deve garantir que a versão de hardware da VM no nó testemunha seja compatível com o ESXi 6,7 (versão de hardware da VM 14) ou posterior, dependendo do seu ambiente. <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">Notas de versão do software NetApp Element 12,8</block>
+  <block id="7d776811219f8ebb17adecaa976bd578" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block> _NOVO_</block>
+  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">Saiba mais sobre o que há de novo no Element 12,8</block>
+  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">O software Element 12,8 é a versão mais recente e inclui atualizações de segurança e componentes do sistema, melhorias operacionais e problemas resolvidos.<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>.</block>
+  <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">Etapa 1: Atualize a versão do hardware da VM em um nó de gerenciamento</block>
+  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">Se você estiver executando uma atualização no local de um nó de gerenciamento existente para o elemento 12,8, antes de atualizar, certifique-se de que a versão de hardware da VM no nó de gerenciamento seja compatível com o ESXi 6,7 (hardware da VM versão 14) ou posterior, dependendo do seu ambiente.</block>
+  <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">Você também pode seguir estas etapas para atualizar a versão do hardware da VM nos nós de testemunha.</block>
+  <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">Faça login no vSphere Web Client como um vCenter Administrator.</block>
+  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">No menu vSphere Client, selecione *VMs* e *Templates*.</block>
+  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">Clique com o botão direito do rato na máquina virtual e selecione *Compatibilidade* &gt; *Atualizar a compatibilidade da VM*.</block>
+  <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">Selecione ESXi 6,7 ou uma versão posterior, dependendo da versão do seu ambiente vSphere.</block>
+  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">Após a conclusão da atualização, selecione *vSphere client refresh* e verifique se a compatibilidade da VM está na versão desejada.</block>
+  <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">Etapa 2: Atualize um nó de gerenciamento para o elemento 12,5 ou posterior</block>
+  <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">Escolha uma das seguintes opções de atualização:</block>
+  <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">Passo 1: Baixe ISO ou OVA e implante a VM</block>
+  <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">Transfira a ISO ou OVA adequada a partir do site de suporte da NetApp e instale a VM.</block>
+  <block id="c6913d34fefabb7329dba971ad99632d" category="section-title">Etapa 2: Crie o administrador do nó de gerenciamento e configure a rede</block>
+  <block id="8e1cc7b20e9f183452b777f8a4fb586d" category="paragraph">Após a conclusão da instalação da VM, crie o usuário de administrador do nó de gerenciamento e configure a rede do nó de gerenciamento.</block>
+  <block id="5e0472334bca93d0d28d3eeaaf723518" category="section-title">Passo 3: Configurar a sincronização de tempo</block>
+  <block id="6646ab3d83d88b5b34e61e3a58b244e8" category="paragraph">Antes de configurar o nó de gerenciamento, sincronize o tempo entre o nó de gerenciamento e o cluster de storage.</block>
+  <block id="ef246c91c687e7d720eb49c5e2a4cd47" category="section-title">Etapa 4: Configure o nó de gerenciamento</block>
+  <block id="9f150d20e38589485a1bb878b18c51e2" category="paragraph">Configure o nó de gerenciamento usando o<block ref="73028873f2b0a018096b6a3d871634b5" prefix=" " category="inline-code"></block> comando.</block>
+  <block id="2cec258fd66ace0725a9af6922c80f3e" category="section-title">Etapa 5: Configurar ativos do controlador</block>
+  <block id="b5d27a207b01cd3ca9fef9594d50836f" category="paragraph">Localize o ID de instalação e adicione um ativo do controlador vCenter.</block>
+  <block id="bd6447e80251856484a25ace239c3873" category="section-title">Etapa 6: (Somente NetApp HCI) Configurar ativos de nós de computação</block>
+  <block id="64391abac346294811422637c6d0a865" category="paragraph">Adicione um ativo de nó de computação aos ativos conhecidos do nó de gerenciamento</block>
+  <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Aviso para o software Element 12,8</block>
+  <block id="d70cd205dfc4339579c798a35dc44462" category="list-text"><block ref="d70cd205dfc4339579c798a35dc44462" category="inline-link-macro-rx"></block></block>
 </blocks>
