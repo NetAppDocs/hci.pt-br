@@ -390,7 +390,6 @@
   <block id="62ccae3874e01d29fdbcf40fdcbabe07" category="inline-link-macro">Saiba mais sobre clusters</block>
   <block id="28a1b7032dbb17f4e087c70b76748bd6" category="list-text"><block ref="28a1b7032dbb17f4e087c70b76748bd6" category="inline-link-macro-rx"></block></block>
   <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">Página de recursos do NetApp HCI</block>
-  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="d958fb044d8feae55f93b59463c556d1" category="summary">Quando você usa o NetApp HCI, talvez você precise de licenças adicionais.</block>
   <block id="744a9670101f98285789f9ed0a7e9c04" category="doc">Licenciamento do NetApp HCI</block>
   <block id="73a34c0ceb2b0096d5f8a9007050fbd6" category="paragraph">Ao usar o NetApp HCI, você pode precisar de licenças adicionais dependendo do que estiver usando.</block>
@@ -787,8 +786,6 @@
   <block id="b09b3ddef5713d8c729037ea2fb7b234" category="inline-link-macro">Atualize o firmware do nó de computação usando o controle de nuvem híbrida da NetApp</block>
   <block id="5a5285cbae65a3a4e6d2325887861e01" category="inline-link-macro">Automatize as atualizações de firmware de computação com o Ansible</block>
   <block id="7cb9171d2e41fd487907a91fb38fae31" category="list-text"><block ref="9c1d2a43cd65a3c0eacb2a0469676bce" category="inline-link-macro-rx"></block> ou <block ref="ea7bc6be827f510faa492af963f76183" category="inline-link-macro-rx"></block>.</block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">Página de recursos do NetApp HCI</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">Atualizar um sistema de storage all-flash NetApp SolidFire</block>
   <block id="ba3433b658d56109d8826f49ee0a8064" category="list-text"><block ref="ba3433b658d56109d8826f49ee0a8064" category="inline-link-rx"></block></block>
   <block id="2f365e3a8139be3ec30cd09716dacb1f" category="summary">Saiba mais sobre os grupos de acesso por volume e como usá-los para acessar e gerenciar volumes.</block>
@@ -6225,10 +6222,7 @@
   <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">Se você estiver executando uma atualização no local de um nó de gerenciamento existente para o elemento 12,8, antes de atualizar, certifique-se de que a versão de hardware da VM no nó de gerenciamento seja compatível com o ESXi 6,7 (hardware da VM versão 14) ou posterior, dependendo do seu ambiente.</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">Você também pode seguir estas etapas para atualizar a versão do hardware da VM nos nós de testemunha.</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">Faça login no vSphere Web Client como um vCenter Administrator.</block>
-  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">No menu vSphere Client, selecione *VMs* e *Templates*.</block>
-  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">Clique com o botão direito do rato na máquina virtual e selecione *Compatibilidade* &gt; *Atualizar a compatibilidade da VM*.</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">Selecione ESXi 6,7 ou uma versão posterior, dependendo da versão do seu ambiente vSphere.</block>
-  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">Após a conclusão da atualização, selecione *vSphere client refresh* e verifique se a compatibilidade da VM está na versão desejada.</block>
   <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">Etapa 2: Atualize um nó de gerenciamento para o elemento 12,5 ou posterior</block>
   <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">Escolha uma das seguintes opções de atualização:</block>
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">Passo 1: Baixe ISO ou OVA e implante a VM</block>
@@ -6245,4 +6239,10 @@
   <block id="64391abac346294811422637c6d0a865" category="paragraph">Adicione um ativo de nó de computação aos ativos conhecidos do nó de gerenciamento</block>
   <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Aviso para o software Element 12,8</block>
   <block id="2d0be4b4ba388979c4f454ae05179965" category="list-text"><block ref="2d0be4b4ba388979c4f454ae05179965" category="inline-link-macro-rx"></block></block>
+  <block id="6e93fbac14e98fd4eee5f4f560e1d580" category="list-text">No menu vSphere Client, selecione *VMs e modelos*.</block>
+  <block id="be19667c20f2f3c6b932b48a9c488774" category="list-text">Clique com o botão direito do rato na máquina virtual (VM) e selecione *Power* &gt; *Shut Down Guest os*.</block>
+  <block id="6f5f678ae471ecc070cea185b3d40ed4" category="paragraph">Aguarde até que a VM seja desligada.</block>
+  <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">Clique com o botão direito do rato na VM e selecione *Compatibilidade* &gt; *Atualizar a compatibilidade da VM*.</block>
+  <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">Após a conclusão da atualização, clique com o botão direito do Mouse na VM e selecione *Power* &gt; *Power on*.</block>
+  <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">Selecione *Atualização do cliente vSphere* e verifique se a Compatibilidade da VM está na versão desejada.</block>
 </blocks>

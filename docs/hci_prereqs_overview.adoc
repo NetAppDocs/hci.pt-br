@@ -32,9 +32,8 @@ Aqui estão os links para os requisitos e tarefas de pré-implantação:
 * link:hci_prereqs_deployment_configuration_restriction.html["Restrições de configuração de implantação"]
 
 
-[discrete]
+
+
 == Encontre mais informações
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos do NetApp HCI"^]
-* https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]

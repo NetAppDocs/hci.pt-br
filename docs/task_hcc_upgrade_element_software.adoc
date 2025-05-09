@@ -422,9 +422,8 @@ O controle de nuvem híbrida da NetApp tem um período de espera pré-definido d
 
 CAUTION: Abortar a atualização do cluster enquanto um nó está sendo atualizado pode resultar na remoção desgraciosa das unidades do nó. Se as unidades forem removidas sem graça, adicionar as unidades de volta durante uma atualização exigirá intervenção manual pelo suporte da NetApp. O nó pode estar demorando mais para fazer atualizações de firmware ou atividades de sincronização pós-atualização. Se o progresso da atualização parecer interrompido, entre em Contato com o suporte da NetApp para obter assistência.
 
-[discrete]
+
+
 == Encontre mais informações
 
-* https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos do NetApp HCI"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]

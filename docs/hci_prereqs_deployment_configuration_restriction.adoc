@@ -18,9 +18,8 @@ Certas configurações são restritas no mecanismo de implantação do NetApp, d
 
 Se você link:task_nde_select_inventory.html["Selecione uma configuração restrita na página *Inventário*"] durante a implantação, uma mensagem de erro será exibida com opções de configuração válidas alternativas.
 
-[discrete]
+
+
 == Encontre mais informações
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos do NetApp HCI"^]
-* https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]

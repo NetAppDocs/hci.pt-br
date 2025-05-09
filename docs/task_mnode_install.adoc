@@ -374,5 +374,4 @@ Adicione um ativo de nó de computação aos ativos conhecidos do nó de gerenci
 * link:task_mnode_add_assets.html["Adicione ativos de computação e controlador ao nó de gerenciamento"]
 * link:task_mnode_install_add_storage_NIC.html["Configurar uma NIC de armazenamento"]
 * https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos do NetApp HCI"^]
 
