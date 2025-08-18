@@ -72,9 +72,6 @@ As seguintes abreviaturas são usadas na tabela:
 | Nó de gerenciamento | Nó de storage MVIP | 442 | Acesso de interface de usuário e API a atualizações de software Element e nó de storage 
 
 
-| Nó de gerenciamento | `23.32.54.122`, `216.240.21.15` | 443 | Atualizações do software Element 
-
-
 | Nó de gerenciamento | Controlador de gerenciamento de placa de base (BMC) | 443 | Monitoramento de hardware e conexão de inventário (comandos Redfish e IPMI) 
 
 
