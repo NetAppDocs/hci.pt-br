@@ -18,16 +18,20 @@ Para ambientes vSphere existentes com um plug-in NetApp Element registrado para 
 
 Você pode atualizar o Registro do plug-in no vCenter Server Virtual Appliance (vCSA) ou Windows usando o utilitário de Registro. Você deve alterar seu Registro para o vCenter Plug-in em cada vCenter Server onde você precisa usar o plug-in.
 
+[NOTE]
+====
+O pacote de serviços de gerenciamento 2.27 inclui o Element Plug-in para vCenter Server 5.5, que é compatível apenas com o nó de gerenciamento 12.8.  Ao atualizar para os serviços de gerenciamento 2.27, você deve alterar a sequência de atualização e atualizar o pacote de serviços de gerenciamento _após_ a atualização para o Element 12.8 para ter compatibilidade entre o nó de gerenciamento e os serviços de gerenciamento.
 
-NOTE: Os serviços de gerenciamento 2.22.7 incluem o plug-in Element para vCenter Server 5,0 que contém o plug-in remoto. Se você usar o plug-in Element, você deve atualizar para os serviços de gerenciamento 2.22.7 ou posterior para cumprir com a diretiva VMware que remove o suporte para plug-ins locais. https://kb.vmware.com/s/article/87880["Saiba mais"^].
+O pacote de serviços de gerenciamento 2.22.7 inclui o plug-in Element para vCenter Server 5.0, que contém o plug-in remoto. Se você usa o plug-in Element, deve atualizar para os serviços de gerenciamento 2.22.7 ou posterior para atender à diretiva da VMware que remove o suporte a plug-ins locais. https://kb.vmware.com/s/article/87880["Saiba mais"^] .
 
+====
 [role="tabbed-block"]
 ====
 .Plug-in Element para vCenter 5,0 e posterior
 --
 Este procedimento de atualização abrange os seguintes cenários de atualização:
 
-* Você está atualizando para o Element Plug-in para vCenter Server 5,4, 5,3, 5,2, 5,1 ou 5,0.
+* Você está atualizando para o Element Plug-in para vCenter Server 5.5, 5.4, 5.3, 5.2, 5.1 ou 5.0.
 * Você está atualizando para um 8,0 ou 7,0 HTML5 vSphere Web Client.
 +
 
@@ -188,13 +192,13 @@ Depois de atualizar para o plug-in do NetApp Element para o vCenter Server 4,8 o
 ====
 . Verifique a alteração de versão na guia *sobre* no ponto de extensão *Configuração do NetApp Element* do plug-in.
 +
-Você deve ver os seguintes detalhes de versão ou detalhes de uma versão mais recente:
+Você deverá ver os seguintes detalhes da versão:
 
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.4
-NetApp Element Plug-in Build Number: 1
+NetApp Element Plug-in Version: 5.5
+NetApp Element Plug-in Build Number: 16
 ----
 
 

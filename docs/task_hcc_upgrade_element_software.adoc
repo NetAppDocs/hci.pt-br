@@ -11,21 +11,24 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 [role="lead"]
 Para atualizar o software NetApp Element, você pode usar a IU ou a API REST do NetApp Hybrid Cloud Control. Certas operações são suprimidas durante uma atualização do software Element, como adicionar e remover nós, adicionar e remover unidades, e comandos associados a iniciadores, grupos de acesso de volume e redes virtuais, entre outros.
 
+CUIDADO:
 
-NOTE: A partir do Element 12,5, o NetApp HealthTools não é mais suportado para atualizações de software Element. Se você estiver executando o Element 11,0 ou 11,1, primeiro link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["Atualize para o Element 12,3 usando HealthTools"^] e depois atualize para o Element 12,5 ou posterior usando o Controle de nuvem híbrida da NetApp.
+[]
+====
+O pacote de serviços de gerenciamento 2.27 inclui o Element Plug-in para vCenter Server 5.5, que é compatível apenas com o nó de gerenciamento 12.8.  Ao atualizar para os serviços de gerenciamento 2.27, você deve alterar a sequência de atualização e atualizar o pacote de serviços de gerenciamento após atualizar para o Element 12.8 para garantir a compatibilidade entre o nó de gerenciamento e os serviços de gerenciamento.
 
-.O que você vai precisar
+Se você estiver atualizando para os serviços de gerenciamento 2.21.61 a 2.26.40, será necessário atualizar o pacote de serviços de gerenciamento antes de atualizar para o Element 12.8.
+
+====
+.Antes de começar
 * *Admin Privileges*: Você tem permissões de administrador de cluster de armazenamento para executar a atualização.
 * *Caminho de atualização válido*: Você verificou as informações do caminho de atualização para a versão do Element para a qual está atualizando e verificou que o caminho de atualização é válido. Consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software%3F["NetApp KB: Matriz de atualização para clusters de armazenamento que executam o software NetApp Element"^]
++
+A partir do Element 12,5, o NetApp HealthTools não é mais suportado para atualizações de software Element. Se você estiver executando o Element 11,0 ou 11,1, primeiro link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["Atualize para o Element 12,3 usando HealthTools"^] e depois atualize para o Element 12,5 ou posterior usando o Controle de nuvem híbrida da NetApp.
+
 * *Sincronização da hora do sistema*: Você garantiu que a sincronização da hora do sistema em todos os nós e que o NTP está configurado corretamente para o cluster de armazenamento e nós. Cada nó deve ser configurado com um servidor de nomes DNS na IU da Web por nó (`https://[IP address]:442`) sem falhas de cluster não resolvidas relacionadas ao desvio de tempo.
 * *Portas do sistema*: Se você estiver usando o Controle de nuvem híbrida da NetApp para atualizações, você garantiu que as portas necessárias estejam abertas. Consulte link:hci_prereqs_required_network_ports.html["Portas de rede"] para obter mais informações.
 * *Nó de gerenciamento*: Para a API e a IU do NetApp Hybrid Cloud Control, o nó de gerenciamento em seu ambiente está executando a versão 11,3.
-* *Serviços de gerenciamento*: Você atualizou seu pacote de serviços de gerenciamento para a versão mais recente.
-
-
-
-IMPORTANT: Você deve atualizar para o pacote de serviços de gerenciamento mais recente antes de atualizar o software Element para a versão 12,5 ou posterior. Se você estiver atualizando o software Element para a versão 12,5 ou posterior, precisará dos serviços de gerenciamento 2.21.61 ou posterior para continuar.
-
 * *Integridade do cluster*: Você verificou que o cluster está pronto para ser atualizado. link:task_hcc_upgrade_element_prechecks.html["Execute verificações de integridade do storage Element antes de atualizar o storage"]Consulte .
 * * Controlador de gerenciamento de placa base (BMC) atualizado para H610S nós*: Você atualizou a versão do BMC para seus H610S nós. Consulte link:rn_H610S_BMC_3.84.07.html["notas de versão e instruções de atualização"].
 * *Tempo de processo de atualização*: Você agendou tempo suficiente para realizar a atualização. Quando você atualiza para o software Element 12,5 ou posterior, o tempo do processo de atualização varia dependendo da versão atual do software Element e das atualizações de firmware.

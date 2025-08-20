@@ -1211,7 +1211,6 @@
   <block id="c203d8a151612acf12457e4d67635a95" category="cell">442</block>
   <block id="3576cff8b205debb58711ff360f51ffd" category="cell">Acesso de interface de usuário e API a atualizações de software Element e nó de storage</block>
   <block id="daa963e679ca3d6377b1b4adb2c7e2be" category="cell">Nó de storage MVIP</block>
-  <block id="46f1292344946f4bae1e17997a0cc9a4" category="cell"><block ref="cbbbb31d6ce466907fff810d74a33d50" prefix="" category="inline-code"></block>,<block ref="236c435abfb5f85e006972468433af90" prefix=" " category="inline-code"></block></block>
   <block id="48edd5f1aadf1c5688f6fb6b572c0d24" category="cell">Atualizações do software Element</block>
   <block id="d470eebacb4b8651c6e00a84dc742aae" category="cell">Controlador de gerenciamento de placa de base (BMC)</block>
   <block id="89155978c096e96c0f21c74744f6a0d4" category="cell">Monitoramento de hardware e conexão de inventário (comandos Redfish e IPMI)</block>
@@ -1807,7 +1806,6 @@
   <block id="e6f04bc267aa8b790e8358fbcafd13da" category="inline-link">Notas de versão do vCenter Plug-in 4,3</block>
   <block id="b2a1b69fb08bccdb5677884b0a061505" category="list-text"><block ref="b2a1b69fb08bccdb5677884b0a061505" category="inline-link-rx"></block></block>
   <block id="ff87ebe2c25e682bd61568ba1a06d717" category="section-title">Firmware de computação</block>
-  <block id="10928303c7ba6d231678d5fa7125e53c" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block> _NOVO_</block>
   <block id="1a4479b2e3ec8fc20906c13b738e7820" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block></block>
   <block id="75dde1dc17bd100ca4331fd989a91f97" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block></block>
   <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
@@ -1818,7 +1816,6 @@
   <block id="732713df3c4c58fb19fab37e747f6f0d" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block></block>
   <block id="002e74c06881f6eef90f201bb310bbfa" category="section-title">Firmware de armazenamento</block>
   <block id="bd64065ecca4148bdf3bf66b4b2539a6" category="inline-link-macro">Notas de lançamento do pacote de firmware de armazenamento 2.182.0</block>
-  <block id="857cfbfd9b291658574dd207ea7dab93" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block> _NOVO_</block>
   <block id="a35c2c2e602b46918d896beca9bdff98" category="inline-link-macro">Notas de lançamento do pacote de firmware de armazenamento 2.175.0</block>
   <block id="9f2c8b7f9459e99daa861cf963d87ddb" category="list-text"><block ref="9f2c8b7f9459e99daa861cf963d87ddb" category="inline-link-macro-rx"></block></block>
   <block id="eb66a5e31d8328246fdb5497ed40a7a4" category="inline-link-macro">Notas de lançamento do pacote de firmware de armazenamento 2.164.0</block>
@@ -3150,7 +3147,6 @@
   <block id="f12957e444375fe5047af820df02fd1a" category="list-text">*Sincronização da hora do sistema*: Você garantiu que a sincronização da hora do sistema em todos os nós e que o NTP está configurado corretamente para o cluster de armazenamento e nós. Cada nó deve ser configurado com um servidor de nomes DNS na IU da Web por nó <block ref="eacc478b3484836aa839e1dec53ce433" prefix="(" category="inline-code"></block>) sem falhas de cluster não resolvidas relacionadas ao desvio de tempo.</block>
   <block id="0a0bd77f761dabcb31d2bd26cb088c47" category="list-text">*Nó de gerenciamento*: Para a API e a IU do NetApp Hybrid Cloud Control, o nó de gerenciamento em seu ambiente está executando a versão 11,3.</block>
   <block id="7272db62c1a436743292f47d71c5e96e" category="list-text">*Serviços de gerenciamento*: Você atualizou seu pacote de serviços de gerenciamento para a versão mais recente.</block>
-  <block id="7ef561ec74f917ecad309d4001bff056" category="admonition">Você deve atualizar para o pacote de serviços de gerenciamento mais recente antes de atualizar o software Element para a versão 12,5 ou posterior. Se você estiver atualizando o software Element para a versão 12,5 ou posterior, precisará dos serviços de gerenciamento 2.21.61 ou posterior para continuar.</block>
   <block id="eb3ef9d3145086e8447906c0ff28c122" category="list-text">*Integridade do cluster*: Você verificou que o cluster está pronto para ser atualizado. <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="d12abcbed858bffa82e8d643aeac1e4f" category="inline-link-macro">notas de versão e instruções de atualização</block>
   <block id="b2798e0e0569643ee305e7af28818f1d" category="list-text">* Controlador de gerenciamento de placa base (BMC) atualizado para H610S nós*: Você atualizou a versão do BMC para seus H610S nós. Consulte <block ref="03b6e6df0597f52053c340579d50c0c6" category="inline-link-macro-rx"></block>.</block>
@@ -6099,7 +6095,6 @@
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">Se os ícones do plug-in do vCenter não estiverem visíveis, <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block>consulte a documentação sobre solução de problemas do plug-in.</block>
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">Depois de atualizar para o plug-in do NetApp Element para o vCenter Server 4,8 ou posterior com o VMware vCenter Server 6.7U1, se os clusters de armazenamento não estiverem listados ou um erro de servidor aparecer nas seções *clusters* e *Configurações de QoSSIOC* da Configuração do NetApp Element, consulte <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> a documentação sobre a solução de problemas desses erros.</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">Verifique a alteração de versão na guia *sobre* no ponto de extensão *Configuração do NetApp Element* do plug-in.</block>
-  <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">Você deve ver os seguintes detalhes de versão ou detalhes de uma versão mais recente:</block>
   <block id="4715e0cc20eb79c52c1f181ce0f6afb0" category="admonition">O plug-in do vCenter contém conteúdo de ajuda on-line. Para garantir que a Ajuda contenha o conteúdo mais recente, limpe o cache do navegador depois de atualizar o plug-in.</block>
   <block id="2ed97f2817053aac98783de2e852f1f7" category="sidebar">O NetApp HCI é uma infraestrutura hiperconvergente local dimensionável para nuvens híbridas. Saiba mais usando a documentação de configuração e gerenciamento do NetApp HCI e as informações sobre as soluções NetApp HCI. Este site contém a documentação do NetApp HCI 1,10.</block>
   <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">Documentação do NetApp HCI 1,10</block>
@@ -6173,9 +6168,7 @@
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">Mantenha o hardware da série H.</block>
   <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">Aviso para Serviços de gerenciamento 2.26.30 (plug-in do NetApp Element para VMware vCenter Server 5,4.1)</block>
   <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">Notas de versão do vCenter Plug-in 5,4</block>
-  <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block> _NOVO_</block>
   <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
-  <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">Você está atualizando para o Element Plug-in para vCenter Server 5,4, 5,3, 5,2, 5,1 ou 5,0.</block>
   <block id="50923856d0e5dfbe847d5f56c774264b" category="list-text"><block ref="50923856d0e5dfbe847d5f56c774264b" category="inline-link-macro-rx"></block></block>
   <block id="ab73a3f8818312d49869de237a845464" category="list-text"><block ref="ab73a3f8818312d49869de237a845464" category="inline-link-macro-rx"></block></block>
   <block id="56e5995b672eb3b444091a7a02e9f649" category="list-text"><block ref="56e5995b672eb3b444091a7a02e9f649" category="inline-link-macro-rx"></block></block>
@@ -6215,7 +6208,6 @@
   <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">Atualize a versão do hardware da VM</block>
   <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">Se você estiver executando uma atualização no local de um nó testemunha existente para o elemento 12,8, antes de atualizar, você deve garantir que a versão de hardware da VM no nó testemunha seja compatível com o ESXi 6,7 (versão de hardware da VM 14) ou posterior, dependendo do seu ambiente. <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">Notas de versão do software NetApp Element 12,8</block>
-  <block id="7d776811219f8ebb17adecaa976bd578" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block> _NOVO_</block>
   <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">Saiba mais sobre o que há de novo no Element 12,8</block>
   <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">O software Element 12,8 é a versão mais recente e inclui atualizações de segurança e componentes do sistema, melhorias operacionais e problemas resolvidos.<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>.</block>
   <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">Etapa 1: Atualize a versão do hardware da VM em um nó de gerenciamento</block>
@@ -6245,4 +6237,19 @@
   <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">Clique com o botão direito do rato na VM e selecione *Compatibilidade* &gt; *Atualizar a compatibilidade da VM*.</block>
   <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">Após a conclusão da atualização, clique com o botão direito do Mouse na VM e selecione *Power* &gt; *Power on*.</block>
   <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">Selecione *Atualização do cliente vSphere* e verifique se a Compatibilidade da VM está na versão desejada.</block>
+  <block id="53e04163346326834efd61306c0800b5" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block></block>
+  <block id="7373675a8dd923fb7362a663e0cb6e1f" category="inline-link">Notas de versão do plug-in vCenter 5.5</block>
+  <block id="1bb29b9b64a805e59f4873c404e002c4" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block>_Novo_</block>
+  <block id="912995e99772bb097b2c7b32940725bb" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block></block>
+  <block id="3a1a022151085ffe24dae724b7ca88e3" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block></block>
+  <block id="3d25e722329aebc696a982dcb7743d0a" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block></block>
+  <block id="c759706a0ac25a6b9701339b7c7959d4" category="admonition">O pacote de serviços de gerenciamento 2.27 inclui o Element Plug-in para vCenter Server 5.5, que é compatível apenas com o nó de gerenciamento 12.8.  Ao atualizar para os serviços de gerenciamento 2.27, você deve alterar a sequência de atualização e atualizar o pacote de serviços de gerenciamento _após_ a atualização para o Element 12.8 para ter compatibilidade entre o nó de gerenciamento e os serviços de gerenciamento.</block>
+  <block id="8b33a6fabc9dc64d006c6243d17ccb18" category="paragraph">CUIDADO:</block>
+  <block id="358803b17c687e99fb47b66b74381a05" category="paragraph">O pacote de serviços de gerenciamento 2.27 inclui o Element Plug-in para vCenter Server 5.5, que é compatível apenas com o nó de gerenciamento 12.8.  Ao atualizar para os serviços de gerenciamento 2.27, você deve alterar a sequência de atualização e atualizar o pacote de serviços de gerenciamento após atualizar para o Element 12.8 para garantir a compatibilidade entre o nó de gerenciamento e os serviços de gerenciamento.</block>
+  <block id="7aa4a364d3e088bdcc22c8991e4615e1" category="paragraph">Se você estiver atualizando para os serviços de gerenciamento 2.21.61 a 2.26.40, será necessário atualizar o pacote de serviços de gerenciamento antes de atualizar para o Element 12.8.</block>
+  <block id="e4ccb22f69b8be133f5125883186655e" category="paragraph">O pacote de serviços de gerenciamento 2.22.7 inclui o plug-in Element para vCenter Server 5.0, que contém o plug-in remoto. Se você usa o plug-in Element, deve atualizar para os serviços de gerenciamento 2.22.7 ou posterior para atender à diretiva da VMware que remove o suporte a plug-ins locais.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block> .</block>
+  <block id="f09175d59684197ed7788662b7cd5fe4" category="list-text">Você está atualizando para o Element Plug-in para vCenter Server 5.5, 5.4, 5.3, 5.2, 5.1 ou 5.0.</block>
+  <block id="6eb41496b0f7ef5be359156d440fc5ea" category="paragraph">Você deverá ver os seguintes detalhes da versão:</block>
+  <block id="9addfb2ff8ac3a9826d26736c6697320" category="inline-link-macro">Aviso para Serviços de Gerenciamento 2.27.40 (Plug-in NetApp Element para VMware vCenter Server 5.5.16)</block>
+  <block id="5f97199338e05d8d021611cc709fe28f" category="list-text"><block ref="5f97199338e05d8d021611cc709fe28f" category="inline-link-macro-rx"></block></block>
 </blocks>

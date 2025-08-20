@@ -35,7 +35,7 @@ NOTE: Você será solicitado a fazer login usando suas credenciais do site de su
 
 == Software NetApp Element
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["Notas de versão do software NetApp Element 12,8"^] _NOVO_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["Notas de versão do software NetApp Element 12,8"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["Notas de versão do software NetApp Element 12,7"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193["Notas de versão do software NetApp Element 12,5"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["Notas de versão do software NetApp Element 12.3.2"^]
@@ -64,7 +64,8 @@ NOTE: Você será solicitado a fazer login usando suas credenciais do site de su
 
 == Plug-in do NetApp Element para vCenter Server
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["Notas de versão do vCenter Plug-in 5,4"^] _NOVO_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3344864["Notas de versão do plug-in vCenter 5.5"^]_Novo_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["Notas de versão do vCenter Plug-in 5,4"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3316480["Notas de versão do vCenter Plug-in 5,3"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272["Notas de versão do vCenter Plug-in 5,2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Notas de versão do vCenter Plug-in 5,1"^]
@@ -83,7 +84,7 @@ NOTE: Você será solicitado a fazer login usando suas credenciais do site de su
 
 == Firmware de computação
 
-* link:rn_compute_firmware_2.179.0.html["Notas de lançamento do pacote de firmware de computação 2.179.0"] _NOVO_
+* link:rn_compute_firmware_2.179.0.html["Notas de lançamento do pacote de firmware de computação 2.179.0"]
 * link:rn_compute_firmware_2.174.0.html["Notas de lançamento do pacote de firmware de computação 2.174.0"]
 * link:rn_compute_firmware_2.154.4.html["Notas de lançamento do pacote de firmware de computação 2.154.4"]
 * link:rn_compute_firmware_2.146.html["Notas de lançamento do pacote de firmware de computação 2,146"]
@@ -97,7 +98,7 @@ NOTE: Você será solicitado a fazer login usando suas credenciais do site de su
 
 == Firmware de armazenamento
 
-* link:rn_storage_firmware_2.182.0.html["Notas de lançamento do pacote de firmware de armazenamento 2.182.0"] _NOVO_
+* link:rn_storage_firmware_2.182.0.html["Notas de lançamento do pacote de firmware de armazenamento 2.182.0"]
 * link:rn_storage_firmware_2.175.0.html["Notas de lançamento do pacote de firmware de armazenamento 2.175.0"]
 * link:rn_storage_firmware_2.164.0.html["Notas de lançamento do pacote de firmware de armazenamento 2.164.0"]
 * link:rn_storage_firmware_2.150.html["Notas de lançamento do pacote de firmware de armazenamento 2,150"]

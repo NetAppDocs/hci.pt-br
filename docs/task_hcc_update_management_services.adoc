@@ -20,15 +20,20 @@ A partir da versão do nó de gerenciamento do Element 11,3, o design do nó de 
 
 .Sobre esta tarefa
 * Você deve atualizar para o pacote de serviços de gerenciamento mais recente antes de atualizar o software Element.
++
 
+CAUTION: O pacote de serviços de gerenciamento 2.27 inclui o Element Plug-in para vCenter Server 5.5, que é compatível apenas com o nó de gerenciamento 12.8.  Ao atualizar para os serviços de gerenciamento 2.27, você deve alterar a sequência de atualização e atualizar o pacote de serviços de gerenciamento _após_ a atualização para o Element 12.8 para ter compatibilidade entre o nó de gerenciamento e os serviços de gerenciamento.
 
++
 [NOTE]
 ====
-* Os serviços de gerenciamento 2.22.7 incluem o plug-in Element para vCenter Server 5,0 que contém o plug-in remoto. Se você usar o plug-in Element, você deve atualizar para os serviços de gerenciamento 2.22.7 ou posterior para cumprir com a diretiva VMware que remove o suporte para plug-ins locais. https://kb.vmware.com/s/article/87880["Saiba mais"^].
-* Para obter as notas de versão mais recentes dos serviços de gerenciamento que descrevem os principais serviços, novos recursos, correções de bugs e soluções alternativas para cada pacote de serviços, consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["notas de lançamento dos serviços de gerenciamento"^]
+** Os serviços de gerenciamento 2.22.7 incluem o plug-in Element para vCenter Server 5,0 que contém o plug-in remoto. Se você usar o plug-in Element, você deve atualizar para os serviços de gerenciamento 2.22.7 ou posterior para cumprir com a diretiva VMware que remove o suporte para plug-ins locais. https://kb.vmware.com/s/article/87880["Saiba mais"^].
+** Para obter as notas de versão mais recentes dos serviços de gerenciamento que descrevem os principais serviços, novos recursos, correções de bugs e soluções alternativas para cada pacote de serviços, consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["notas de lançamento dos serviços de gerenciamento"^]
 
 
 ====
+
+
 .O que você vai precisar
 A partir dos serviços de gerenciamento 2.20.69, você deve aceitar e salvar o Contrato de Licença de Usuário final (EULA) antes de usar a IU ou API do Controle de nuvem híbrida da NetApp para atualizar os serviços de gerenciamento:
 
