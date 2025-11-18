@@ -20,7 +20,7 @@ NOTE: Se você precisar de informações sobre a atualização dos nós de geren
 
 == Etapa 1: Atualize a versão do hardware da VM em um nó de gerenciamento
 
-Se você estiver executando uma atualização no local de um nó de gerenciamento existente para o elemento 12,8, antes de atualizar, certifique-se de que a versão de hardware da VM no nó de gerenciamento seja compatível com o ESXi 6,7 (hardware da VM versão 14) ou posterior, dependendo do seu ambiente.
+Se você estiver realizando uma atualização in-place de um nó de gerenciamento existente para o Element 12.8 ou posterior, antes de atualizar, certifique-se de que a versão do hardware da máquina virtual no nó de gerenciamento seja compatível com o ESXi 6.7 (versão de hardware da máquina virtual 14) ou posterior, dependendo do seu ambiente.
 
 
 NOTE: Você também pode seguir estas etapas para atualizar a versão do hardware da VM nos nós de testemunha.

@@ -38,7 +38,7 @@ O NetApp HCI é compatível com apenas certos modelos de nós de storage em clus
 
 Quando o processo de instalação do NetApp HCI instala nós de testemunha, um modelo de VM é armazenado no VMware vCenter que você pode usar para reimplantar um nó de testemunha caso ele seja removido, perdido ou corrompido acidentalmente. Você também pode usar o modelo para reimplantar um nó de testemunha se precisar substituir um nó de computação com falha que estava hospedando o nó de testemunha. Para obter instruções, link:task_hci_h410crepl.html["Reimplante nós de testemunhas para clusters de storage de dois ou três nós"]consulte .
 
-Se você estiver executando uma atualização no local de um nó testemunha existente para o elemento 12,8, antes de atualizar, você deve garantir que a versão de hardware da VM no nó testemunha seja compatível com o ESXi 6,7 (versão de hardware da VM 14) ou posterior, dependendo do seu ambiente. link:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["Atualize a versão do hardware da VM"]Consulte .
+Se você estiver realizando uma atualização in-place de um Witness Node existente para o Element 12.8 ou posterior, antes de atualizar, certifique-se de que a versão do hardware da VM no Witness Node seja compatível com o ESXi 6.7 (versão de hardware da VM 14) ou posterior, dependendo do seu ambiente. Verlink:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["Atualize a versão do hardware da VM"] .
 
 ====
 
