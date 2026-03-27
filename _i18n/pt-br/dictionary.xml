@@ -6256,4 +6256,7 @@
   <block id="ae8bd58eb0b6e5ff8cd67738f2ab773b" category="paragraph">Se você estiver realizando uma atualização in-place de um nó de gerenciamento existente para o Element 12.8 ou posterior, antes de atualizar, certifique-se de que a versão do hardware da máquina virtual no nó de gerenciamento seja compatível com o ESXi 6.7 (versão de hardware da máquina virtual 14) ou posterior, dependendo do seu ambiente.</block>
   <block id="576a64066f01cba7e1d9e6cc332e1c1e" category="inline-link-macro">Aviso para o software Element 12.9</block>
   <block id="0052f32dde4447765e38fcb8d2c7c0fb" category="list-text"><block ref="0052f32dde4447765e38fcb8d2c7c0fb" category="inline-link-macro-rx"></block></block>
+  <block id="c1e517fe7181e2c5115775d9ea6bc98a" category="inline-link-macro">A atualização do firmware do nó de computação troca as interfaces vmnic1 e vmnic4</block>
+  <block id="82164a18d6c12ce08bfeea322b95b153" category="list-text"><block ref="82164a18d6c12ce08bfeea322b95b153" category="inline-link-macro-rx"></block></block>
+  <block id="4f78f9b3af0747f30a363de59d0bb0ad" category="list-text"><block ref="4f78f9b3af0747f30a363de59d0bb0ad" category="inline-link-macro-rx"></block></block>
 </blocks>

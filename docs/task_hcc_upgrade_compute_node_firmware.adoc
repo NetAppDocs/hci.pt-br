@@ -565,4 +565,6 @@ CAUTION: Durante o processo de ativação, por aproximadamente cinco minutos, o 
 
 == Encontre mais informações
 
-https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
+* link:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/vmnic1_and_vmnic4_is_swapped_by_compute_node_firmware_upgrade["A atualização do firmware do nó de computação troca as interfaces vmnic1 e vmnic4"^]
+* link:https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
+
